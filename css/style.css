@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.highlight {
+  color: #f7c745;
+}
+
+h1,
+h4,
+h5,
+h6 {
+  line-height: 1.4;
+}
+
+footer ul li {
+  cursor: pointer;
+}
+
+footer ul li:hover {
+  color: white;
+}
+
+form input[type="email"] {
+  min-width: 280px;
+}
+.social-icons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+
+  svg {
+    width: 30px;
+    height: auto;
+    fill: silver;
+  }
+}
